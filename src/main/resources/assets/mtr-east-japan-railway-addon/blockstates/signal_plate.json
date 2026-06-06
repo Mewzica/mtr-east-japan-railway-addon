@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,on_pole=false": { "model": "mtr-east-japan-railway-addon:block/signal_plate" },
+    "facing=east,on_pole=false":  { "model": "mtr-east-japan-railway-addon:block/signal_plate", "y": 90 },
+    "facing=south,on_pole=false": { "model": "mtr-east-japan-railway-addon:block/signal_plate", "y": 180 },
+    "facing=west,on_pole=false":  { "model": "mtr-east-japan-railway-addon:block/signal_plate", "y": 270 },
+
+    "facing=north,on_pole=true":  { "model": "mtr-east-japan-railway-addon:block/signal_plate_pole" },
+    "facing=east,on_pole=true":   { "model": "mtr-east-japan-railway-addon:block/signal_plate_pole", "y": 90 },
+    "facing=south,on_pole=true":  { "model": "mtr-east-japan-railway-addon:block/signal_plate_pole", "y": 180 },
+    "facing=west,on_pole=true":   { "model": "mtr-east-japan-railway-addon:block/signal_plate_pole", "y": 270 }
+  }
+}

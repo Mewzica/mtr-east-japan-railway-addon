@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,hanging=false": { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign" },
+    "facing=east,hanging=false":  { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign", "y": 90 },
+    "facing=south,hanging=false": { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign", "y": 180 },
+    "facing=west,hanging=false":  { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign", "y": 270 },
+
+    "facing=north,hanging=true": { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign_hanging"},
+    "facing=east,hanging=true":  { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign_hanging","y": 90 },
+    "facing=south,hanging=true": { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign_hanging","y": 180 },
+    "facing=west,hanging=true":  { "model": "mtr-east-japan-railway-addon:block/stopping_position_sign_hanging","y": 270 }
+  }
+}

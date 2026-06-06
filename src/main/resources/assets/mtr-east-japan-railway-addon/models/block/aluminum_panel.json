@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mtr-east-japan-railway-addon:block/aluminum_panel"
+  }
+}

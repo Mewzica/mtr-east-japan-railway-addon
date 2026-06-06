@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,left=false,right=false": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_single" },
+    "facing=east,left=false,right=false":  { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_single", "y": 90 },
+    "facing=south,left=false,right=false": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_single", "y": 180 },
+    "facing=west,left=false,right=false":  { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_single", "y": 270 },
+
+    "facing=north,left=false,right=true":  { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_left" },
+    "facing=east,left=false,right=true":   { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_left", "y": 90 },
+    "facing=south,left=false,right=true":  { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_left", "y": 180 },
+    "facing=west,left=false,right=true":   { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_left", "y": 270 },
+
+    "facing=north,left=true,right=false":  { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_right" },
+    "facing=east,left=true,right=false":   { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_right", "y": 90 },
+    "facing=south,left=true,right=false":  { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_right", "y": 180 },
+    "facing=west,left=true,right=false":   { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_right", "y": 270 },
+
+    "facing=north,left=true,right=true":   { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_middle" },
+    "facing=east,left=true,right=true":    { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_middle", "y": 90 },
+    "facing=south,left=true,right=true":   { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_middle", "y": 180 },
+    "facing=west,left=true,right=true":    { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_structure_middle", "y": 270 }
+  }
+}

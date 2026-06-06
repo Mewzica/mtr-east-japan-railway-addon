@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "mtr-east-japan-railway-addon",
+	"version": "${version}",
+	"name": "MTR East Japan Railway Addon",
+	"description": "Adds elements of Eastern Japan's railways to the worlds of Minecraft and MTR.",
+	"authors": [
+		"magikal_hakase"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/mtr-east-japan-railway-addon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.magikal_hakase.MTREastJapanRailwayAddon"
+		],
+		"client": [
+          "com.magikal_hakase.MTREastJapanRailwayAddonClient"
+		],
+		"fabric-datagen": [
+			"com.magikal_hakase.MTREastJapanRailwayAddonDataGenerator"
+		]
+	},
+	"mixins": [
+		"mtr-east-japan-railway-addon.mixins.json",
+		{
+			"config": "mtr-east-japan-railway-addon.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,type=single": { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_single" },
+    "facing=north,type=left":   { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_left" },
+    "facing=north,type=middle": { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_middle" },
+    "facing=north,type=right":  { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_right" },
+
+    "facing=east,type=single":  { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_single", "y": 90 },
+    "facing=east,type=left":    { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_left",   "y": 90 },
+    "facing=east,type=middle":  { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_middle", "y": 90 },
+    "facing=east,type=right":   { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_right",  "y": 90 },
+
+    "facing=south,type=single": { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_single", "y": 180 },
+    "facing=south,type=left":   { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_left",   "y": 180 },
+    "facing=south,type=middle": { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_middle", "y": 180 },
+    "facing=south,type=right":  { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_right",  "y": 180 },
+
+    "facing=west,type=single":  { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_single", "y": 270 },
+    "facing=west,type=left":    { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_left",   "y": 270 },
+    "facing=west,type=middle":  { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_middle", "y": 270 },
+    "facing=west,type=right":   { "model": "mtr-east-japan-railway-addon:block/station_guide_sign_right",  "y": 270 }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "multipart": [
+
+    {
+      "when": { "up": "false", "down": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_pole_middle" }
+    },
+
+    {
+      "when": { "up": "true", "down": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_pole_bottom" }
+    },
+
+    {
+      "when": { "up": "true", "down": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_pole_middle" }
+    },
+
+    {
+      "when": { "up": "false", "down": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_pole_top" }
+    },
+
+    { "when": { "north": "sign" },    "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_sign" } },
+    { "when": { "north": "light_h" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_h" } },
+    { "when": { "north": "light_v" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_v" } },
+    { "when": { "north": "speaker" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_speaker" } },
+
+    { "when": { "east": "sign" },    "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_sign", "y": 90 } },
+    { "when": { "east": "light_h" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_h", "y": 90 } },
+    { "when": { "east": "light_v" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_v", "y": 90 } },
+    { "when": { "east": "speaker" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_speaker", "y": 90 } },
+
+    { "when": { "south": "sign" },    "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_sign", "y": 180 } },
+    { "when": { "south": "light_h" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_h", "y": 180 } },
+    { "when": { "south": "light_v" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_v", "y": 180 } },
+    { "when": { "south": "speaker" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_speaker", "y": 180 } },
+
+    { "when": { "west": "sign" },    "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_sign", "y": 270 } },
+    { "when": { "west": "light_h" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_h", "y": 270 } },
+    { "when": { "west": "light_v" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_light_v", "y": 270 } },
+    { "when": { "west": "speaker" }, "apply": { "model": "mtr-east-japan-railway-addon:block/crossing_speaker", "y": 270 } }
+  ]
+}

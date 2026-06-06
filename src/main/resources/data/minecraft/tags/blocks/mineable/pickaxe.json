@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "mtr-east-japan-railway-addon:guidance_bell",
+    "mtr-east-japan-railway-addon:bright_tile",
+    "mtr-east-japan-railway-addon:dark_tile",
+    "mtr-east-japan-railway-addon:aluminum_panel",
+    "mtr-east-japan-railway-addon:station_bench",
+    "mtr-east-japan-railway-addon:station_clock",
+    "mtr-east-japan-railway-addon:east_japan_pids",
+    "mtr-east-japan-railway-addon:station_guide_sign"
+  ]
+}

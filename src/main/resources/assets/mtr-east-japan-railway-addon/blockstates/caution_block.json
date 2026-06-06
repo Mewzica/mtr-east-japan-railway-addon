@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mtr-east-japan-railway-addon:block/caution_block" }
+  }
+}

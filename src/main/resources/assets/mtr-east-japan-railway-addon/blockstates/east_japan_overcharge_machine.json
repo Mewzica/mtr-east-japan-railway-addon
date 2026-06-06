@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north,half=lower": {
+      "model": "mtr-east-japan-railway-addon:block/east_japan_overcharge_machine",
+      "y": 180
+    },
+    "facing=east,half=lower": {
+      "model": "mtr-east-japan-railway-addon:block/east_japan_overcharge_machine",
+      "y": 270
+    },
+    "facing=south,half=lower": {
+      "model": "mtr-east-japan-railway-addon:block/east_japan_overcharge_machine"
+    },
+    "facing=west,half=lower": {
+      "model": "mtr-east-japan-railway-addon:block/east_japan_overcharge_machine",
+      "y": 90
+    },
+    "half=upper": {
+      "model": "mtr-east-japan-railway-addon:block/east_japan_ticket_machine_top"
+    }
+  }
+}

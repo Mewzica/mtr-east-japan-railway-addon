@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mtr-east-japan-railway-addon:block/guidance_bell" },
+    "facing=east":  { "model": "mtr-east-japan-railway-addon:block/guidance_bell", "y": 90 },
+    "facing=south": { "model": "mtr-east-japan-railway-addon:block/guidance_bell", "y": 180 },
+    "facing=west":  { "model": "mtr-east-japan-railway-addon:block/guidance_bell", "y": 270 }
+  }
+}

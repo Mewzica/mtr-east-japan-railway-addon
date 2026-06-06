@@ -1,0 +1,208 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "0": "mtr-east-japan-railway-addon:block/east_japan_pids",
+    "particle": "mtr-east-japan-railway-addon:block/east_japan_pids"
+  },
+  "elements": [
+    {
+      "from": [
+        7.25,
+        0,
+        12.5
+      ],
+      "to": [
+        8.75,
+        16,
+        14
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          9.875,
+          10.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            10.5,
+            3.875,
+            11.625
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2,
+            10.5,
+            2.375,
+            11.625
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            10.5,
+            2.875,
+            11.625
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            3,
+            10.5,
+            3.375,
+            11.625
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            5.375,
+            10.875,
+            5,
+            10.5
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            5.875,
+            10.5,
+            5.5,
+            10.875
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -135,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        2,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -135,
+        0
+      ],
+      "translation": [
+        2.75,
+        -1,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "fixed": {
+      "translation": [
+        3.75,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "east_japan_pids",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    }
+  ]
+}

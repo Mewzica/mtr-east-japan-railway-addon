@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mtr-east-japan-railway-addon:block/four_light_signal" },
+    "facing=east":  { "model": "mtr-east-japan-railway-addon:block/four_light_signal", "y": 90 },
+    "facing=south": { "model": "mtr-east-japan-railway-addon:block/four_light_signal", "y": 180 },
+    "facing=west":  { "model": "mtr-east-japan-railway-addon:block/four_light_signal", "y": 270 }
+  }
+}

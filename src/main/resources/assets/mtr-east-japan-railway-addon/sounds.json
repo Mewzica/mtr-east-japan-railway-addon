@@ -1,0 +1,41 @@
+{
+  "ping_pong": {
+    "category": "block",
+    "subtitle": "subtitles.mtr-east-japan-railway-addon.ping_pong",
+    "sounds": [
+      "mtr-east-japan-railway-addon:ping_pong"
+    ]
+  },
+
+  "electric_bird": {
+    "category": "block",
+    "subtitle": "subtitles.mtr-east-japan-railway-addon.electric_bird",
+    "sounds": [
+      "mtr-east-japan-railway-addon:electric_bird"
+    ]
+  },
+
+  "info_map": {
+    "category": "block",
+    "subtitle": "subtitles.mtr-east-japan-railway-addon.info_map",
+    "sounds": [
+      "mtr-east-japan-railway-addon:info_map"
+    ]
+  },
+
+  "restroom": {
+    "category": "block",
+    "subtitle": "subtitles.mtr-east-japan-railway-addon.restroom",
+    "sounds": [
+      "mtr-east-japan-railway-addon:restroom"
+    ]
+  },
+
+  "crossing_alarm": {
+    "category": "block",
+    "subtitle": "subtitles.mtr-east-japan-railway-addon.crossing_alarm",
+    "sounds": [
+      "mtr-east-japan-railway-addon:crossing_alarm"
+    ]
+  }
+}

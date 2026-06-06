@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,with_bracket=false": { "model": "mtr-east-japan-railway-addon:block/raceway" },
+    "facing=north,with_bracket=true":  { "model": "mtr-east-japan-railway-addon:block/raceway_with_bracket" },
+
+    "facing=east,with_bracket=false":  { "model": "mtr-east-japan-railway-addon:block/raceway", "y": 90 },
+    "facing=east,with_bracket=true":   { "model": "mtr-east-japan-railway-addon:block/raceway_with_bracket", "y": 90 },
+
+    "facing=south,with_bracket=false":  { "model": "mtr-east-japan-railway-addon:block/raceway", "y": 180 },
+    "facing=south,with_bracket=true":   { "model": "mtr-east-japan-railway-addon:block/raceway_with_bracket", "y": 180 },
+
+    "facing=west,with_bracket=false":  { "model": "mtr-east-japan-railway-addon:block/raceway", "y": 270 },
+    "facing=west,with_bracket=true":   { "model": "mtr-east-japan-railway-addon:block/raceway_with_bracket", "y": 270 }
+  }
+}

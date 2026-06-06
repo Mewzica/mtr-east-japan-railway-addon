@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mtr-east-japan-railway-addon:block/hanging_station_sign" },
+    "facing=east":  { "model": "mtr-east-japan-railway-addon:block/hanging_station_sign", "y": 90 },
+    "facing=south": { "model": "mtr-east-japan-railway-addon:block/hanging_station_sign", "y": 180 },
+    "facing=west":  { "model": "mtr-east-japan-railway-addon:block/hanging_station_sign", "y": 270 }
+  }
+}

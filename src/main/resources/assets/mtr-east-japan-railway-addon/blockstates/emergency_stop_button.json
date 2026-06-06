@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mtr-east-japan-railway-addon:block/emergency_stop_button" },
+    "facing=east":  { "model": "mtr-east-japan-railway-addon:block/emergency_stop_button", "y": 90 },
+    "facing=south": { "model": "mtr-east-japan-railway-addon:block/emergency_stop_button", "y": 180 },
+    "facing=west":  { "model": "mtr-east-japan-railway-addon:block/emergency_stop_button", "y": 270 }
+  }
+}

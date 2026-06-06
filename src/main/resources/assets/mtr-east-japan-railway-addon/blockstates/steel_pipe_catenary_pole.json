@@ -1,0 +1,50 @@
+{
+  "multipart": [
+
+    { "when": { "render_post": "true" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_post" } },
+
+    { "when": { "up": "true", "north": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam" } },
+    { "when": { "down": "false", "north": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam" } },
+
+    { "when": { "up": "true", "east": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam", "y": 90 } },
+    { "when": { "down": "false", "east": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam", "y": 90 } },
+    { "when": { "up": "true", "south": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam", "y": 180 } },
+    { "when": { "down": "false", "south": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam", "y": 180 } },
+    { "when": { "up": "true", "west": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam", "y": 270 } },
+    { "when": { "down": "false", "west": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_beam", "y": 270 } },
+
+    { "when": { "up": "true", "north": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_bracket" } },
+    { "when": { "up": "true", "east": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_bracket", "y": 90 } },
+    { "when": { "up": "true", "south": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_bracket", "y": 180 } },
+    { "when": { "up": "true", "west": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_bracket", "y": 270 } },
+
+    { "when": { "up": "false", "down": "true", "north": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_curve" } },
+    { "when": { "up": "false", "down": "true", "east": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_curve", "y": 90 } },
+    { "when": { "up": "false", "down": "true", "south": "pole" }, "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_curve", "y": 180 } },
+    { "when": { "up": "false", "down": "true", "west": "pole" },  "apply": { "model": "mtr-east-japan-railway-addon:block/steel_pipe_catenary_pole_curve", "y": 270 } },
+
+    { "when": { "north": "four_light" },  "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm" } },
+    { "when": { "north": "three_light" }, "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_3light" } },
+    { "when": { "north": "two_light" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light" } },
+    { "when": { "north": "switching" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_switching" } },
+    { "when": { "north": "crossing_signmark" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light" } },
+
+    { "when": { "east": "four_light" },  "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm", "y": 90 } },
+    { "when": { "east": "three_light" }, "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_3light", "y": 90 } },
+    { "when": { "east": "two_light" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light", "y": 90} },
+    { "when": { "east": "switching" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_switching", "y": 90} },
+    { "when": { "east": "crossing_signmark" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light", "y": 90 } },
+
+    { "when": { "south": "four_light" }, "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm", "y": 180 } },
+    { "when": { "south": "three_light" }, "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_3light", "y": 180 } },
+    { "when": { "south": "two_light" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light", "y": 180} },
+    { "when": { "south": "switching" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_switching", "y": 180} },
+    { "when": { "south": "crossing_signmark" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light", "y": 180 } },
+
+    { "when": { "west": "four_light" },  "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm", "y": 270 } },
+    { "when": { "west": "three_light" }, "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_3light", "y": 270 } },
+    { "when": { "west": "two_light" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light", "y": 270} },
+    { "when": { "west": "switching" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_switching", "y": 270} },
+    { "when": { "west": "crossing_signmark" },   "apply": { "model": "mtr-east-japan-railway-addon:block/signal_pole_arm_2light", "y": 270 } }
+  ]
+}

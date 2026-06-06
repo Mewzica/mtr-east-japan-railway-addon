@@ -1,0 +1,119 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "0": "mtr-east-japan-railway-addon:block/signal_plate_pole",
+    "particle": "mtr-east-japan-railway-addon:block/signal_plate_pole"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        1,
+        15.65
+      ],
+      "to": [
+        10,
+        15,
+        15.75
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          0,
+          13.75
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            2.5,
+            7,
+            9.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            4,
+            7
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            7,
+            0.5,
+            14
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            9,
+            6.5,
+            7,
+            6
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            9,
+            6.5,
+            7,
+            7
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        -135,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "group",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "multipart": [
+    { "when": { "facing": "north" }, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_post" } },
+    { "when": { "facing": "east" },  "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_post", "y": 90 } },
+    { "when": { "facing": "south" }, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_post", "y": 180 } },
+    { "when": { "facing": "west" },  "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_post", "y": 270 } },
+
+    { "when": { "facing": "north", "front_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up" } },
+    { "when": { "facing": "east",  "front_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up", "y": 90 } },
+    { "when": { "facing": "south", "front_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up", "y": 180 } },
+    { "when": { "facing": "west",  "front_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up", "y": 270 } },
+
+    { "when": { "facing": "north", "front_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down" } },
+    { "when": { "facing": "east",  "front_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down", "y": 90 } },
+    { "when": { "facing": "south", "front_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down", "y": 180 } },
+    { "when": { "facing": "west",  "front_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down", "y": 270 } },
+
+    { "when": { "facing": "north", "front_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level" } },
+    { "when": { "facing": "east",  "front_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level", "y": 90 } },
+    { "when": { "facing": "south", "front_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level", "y": 180 } },
+    { "when": { "facing": "west",  "front_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level", "y": 270 } },
+
+    { "when": { "facing": "north", "back_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down_b", "y": 0 } },
+    { "when": { "facing": "east",  "back_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down_b", "y": 90 } },
+    { "when": { "facing": "south", "back_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down_b", "y": 180 } },
+    { "when": { "facing": "west",  "back_type": "down"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_down_b", "y": 270 } },
+
+    { "when": { "facing": "north", "back_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up_b", "y": 0 } },
+    { "when": { "facing": "east",  "back_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up_b", "y": 90 } },
+    { "when": { "facing": "south", "back_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up_b", "y": 180 } },
+    { "when": { "facing": "west",  "back_type": "up"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_up_b", "y": 270 } },
+
+    { "when": { "facing": "north", "back_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level_b", "y": 0 } },
+    { "when": { "facing": "east",  "back_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level_b", "y": 90 } },
+    { "when": { "facing": "south", "back_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level_b", "y": 180 } },
+    { "when": { "facing": "west",  "back_type": "level"}, "apply": { "model": "mtr-east-japan-railway-addon:block/gradient_marker_arm_level_b", "y": 270 } }
+  ]
+}

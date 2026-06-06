@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mtr-east-japan-railway-addon:block/crossing_fence" },
+    "facing=east":  { "model": "mtr-east-japan-railway-addon:block/crossing_fence", "y": 90 },
+    "facing=south": { "model": "mtr-east-japan-railway-addon:block/crossing_fence", "y": 180 },
+    "facing=west":  { "model": "mtr-east-japan-railway-addon:block/crossing_fence", "y": 270 }
+  }
+}

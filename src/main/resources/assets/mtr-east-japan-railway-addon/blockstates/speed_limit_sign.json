@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,type=normal": { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_normal" },
+    "facing=east,type=normal":  { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_normal", "y": 90 },
+    "facing=south,type=normal": { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_normal", "y": 180 },
+    "facing=west,type=normal":  { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_normal", "y": 270 },
+
+    "facing=north,type=left":   { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_left" },
+    "facing=east,type=left":    { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_left", "y": 90 },
+    "facing=south,type=left":   { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_left", "y": 180 },
+    "facing=west,type=left":    { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_left", "y": 270 },
+
+    "facing=north,type=right":  { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_right" },
+    "facing=east,type=right":   { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_right", "y": 90 },
+    "facing=south,type=right":  { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_right", "y": 180 },
+    "facing=west,type=right":   { "model": "mtr-east-japan-railway-addon:block/speed_limit_sign_right", "y": 270 }
+  }
+}

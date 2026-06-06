@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mtr-east-japan-railway-addon:block/crossing_signmark" },
+    "facing=east":  { "model": "mtr-east-japan-railway-addon:block/crossing_signmark", "y": 90 },
+    "facing=south": { "model": "mtr-east-japan-railway-addon:block/crossing_signmark", "y": 180 },
+    "facing=west":  { "model": "mtr-east-japan-railway-addon:block/crossing_signmark", "y": 270 }
+  }
+}

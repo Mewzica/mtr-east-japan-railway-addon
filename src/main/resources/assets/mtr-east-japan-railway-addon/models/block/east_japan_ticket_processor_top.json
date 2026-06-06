@@ -1,0 +1,6 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "mtr-east-japan-railway-addon:block/east_japan_ticket_processor"
+  }
+}

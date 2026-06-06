@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mtr-east-japan-railway-addon:block/station_clock" },
+    "facing=east":  { "model": "mtr-east-japan-railway-addon:block/station_clock", "y": 90 },
+    "facing=south": { "model": "mtr-east-japan-railway-addon:block/station_clock", "y": 180 },
+    "facing=west":  { "model": "mtr-east-japan-railway-addon:block/station_clock", "y": 270 }
+  }
+}

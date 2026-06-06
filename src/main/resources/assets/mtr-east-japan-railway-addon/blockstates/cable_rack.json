@@ -1,0 +1,48 @@
+{
+  "multipart": [
+
+    { "when": { "north": "false", "east": "false", "south": "false", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_single" } },
+
+    { "when": { "north": "true", "east": "false", "south": "false", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_end" } },
+    { "when": { "north": "false", "east": "true", "south": "false", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_end", "y": 90 } },
+    { "when": { "north": "false", "east": "false", "south": "true", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_end", "y": 180 } },
+    { "when": { "north": "false", "east": "false", "south": "false", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_end", "y": 270 } },
+
+    { "when": { "north": "true", "east": "false", "south": "true", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_straight" } },
+    { "when": { "north": "false", "east": "true", "south": "false", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_straight", "y": 90 } },
+
+    { "when": { "north": "true", "east": "true", "south": "false", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_corner" } },
+
+    { "when": { "north": "false", "east": "true", "south": "true", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_corner", "y": 90 } },
+
+    { "when": { "north": "false", "east": "false", "south": "true", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_corner", "y": 180 } },
+
+    { "when": { "north": "true", "east": "false", "south": "false", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_corner", "y": 270 } },
+
+    { "when": { "north": "true", "east": "true", "south": "false", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_t" } },
+
+    { "when": { "north": "true", "east": "true", "south": "true", "west": "false" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_t", "y": 90 } },
+
+    { "when": { "north": "false", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_t", "y": 180 } },
+
+    { "when": { "north": "true", "east": "false", "south": "true", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_t", "y": 270 } },
+
+    { "when": { "north": "true", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "mtr-east-japan-railway-addon:block/cable_rack_cross" } }
+  ]
+}
